@@ -1,0 +1,62 @@
+{
+  "FEATHER": {
+    "num_channel": 20,
+    "num_sample": 24,
+    "num_bin": 16,
+    "max_bin": 1,
+    "min_bin": -1,
+    "blocks": [
+      32,
+      64,
+      64
+    ],
+    "hidden_layers": [
+      1024
+    ]
+  },
+  "NetLSD": {
+    "num_channel": 1,
+    "num_sample": 250,
+    "num_bin": 16,
+    "max_bin": 1,
+    "min_bin": 0,
+    "blocks": [
+      32,
+      64,
+      64
+    ],
+    "hidden_layers": [
+      1024
+    ]
+  },
+  "GeoScattering": {
+    "num_channel": 1,
+    "num_sample": 111,
+    "num_bin": 16,
+    "max_bin": 1,
+    "min_bin": -1,
+    "blocks": [
+      32,
+      64,
+      64
+    ],
+    "hidden_layers": [
+      1024
+    ]
+  },
+  "GeoScatteringNoClustering": {
+    "num_channel": 1,
+    "num_sample":74,
+    "num_bin": 16,
+    "max_bin": 1,
+    "min_bin": -1,
+    "blocks": [
+      32,
+      64,
+      64
+    ],
+    "hidden_layers": [
+      1024
+    ]
+  }
+}

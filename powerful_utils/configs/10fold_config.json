@@ -1,0 +1,19 @@
+{
+  "dataset_name":"COLLAB",
+  "max_to_keep":1,
+  "gpu": "5",
+  "num_exp": 1,
+  "exp_name": "10fold_cross_validation",
+  "val_exist": true,
+
+  "architecture": {
+    "block_features": [64,64,64],
+    "depth_of_mlp": 2,
+    "new_suffix": false
+  },
+
+  "hyperparams": {
+    "batch_size": 5,
+    "optimizer": "adam"
+  }
+}
